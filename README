@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1118
+
+This file has a vim script to reverse the lines in the file.
+(line 1 swapped with last line say 5, line 2 swapped with line4 ...)
+
+I build it because I had such a requirement and could not 
+think of anything quicker on Windows. 
+
+Unix people have lot better tricks-). 
+
+
+How to use :
+Method 1: press <F2> if you wanna reverse all the lines
+Method 2: select lines in visual mode and press <F2> 
+                if you wanna swap only the highlighted lines
+Method 3: To reverse line1 to line2 use :line1,line2 Reverse 
+
